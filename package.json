@@ -4,6 +4,7 @@
   "description": "We will use Node.js & Express to create a server in order to hide public API keys, add rate limiting and caching",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/vishalims095/node-api-proxy-server/issues"
   },
-  "homepage": "https://github.com/vishalims095/node-api-proxy-server#readme"
+  "homepage": "https://github.com/vishalims095/node-api-proxy-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
 }
