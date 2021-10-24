@@ -1,0 +1,22 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "We will use Node.js & Express to create a server in order to hide public API keys, add rate limiting and caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalims095/node-api-proxy-server.git"
+  },
+  "keywords": [
+    "node-api-proxy-server"
+  ],
+  "author": "vishal sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalims095/node-api-proxy-server/issues"
+  },
+  "homepage": "https://github.com/vishalims095/node-api-proxy-server#readme"
+}
